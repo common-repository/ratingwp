@@ -1,0 +1,26 @@
+{
+  "name": "ratingwp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpowney/ratingwp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpowney/ratingwp/issues"
+  },
+  "homepage": "https://github.com/danielpowney/ratingwp#readme",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^4.0.1",
+    "@wordpress/scripts": "^16.1.2"
+  }
+}

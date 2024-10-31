@@ -1,0 +1,93 @@
+/**
+ * Gutenberg
+ */
+  .rawp-rating-form, .rawp-rating-summary-details, .rawp-rating-summary-overall, .rawp-rating-list-table {
+  	margin-bottom: 1em;
+  	margin-top: 1em;
+  }
+ .rawp-rating-form .rawp-criteria-wrapper {
+ 	display: inline-grid;
+ 	grid-template-columns: auto auto;
+ 	column-gap: 1em;
+ 	row-gap: 1em;
+	align-items: center;
+ }
+.rawp-rating-form label, .rawp-rating-form input, .rawp-rating-form  select, .rawp-rating-form  .rawp-stars .dashicons {
+	vertical-align: baseline;
+	margin: 0px;
+}
+.rawp-rating-form .rawp-buttons {
+	display: block;
+	margin-top: 1em;
+}
+
+.rawp-range {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.rawp-range span {
+	margin-left: 10px;
+}
+
+
+
+/* Score Layout */
+.rawp-rating-summary-overall h1, .rawp-rating-summary-overall h2, .rawp-rating-summary-overall h3 {
+	margin-bottom: .0 !important;
+}
+/* Star Layout */
+.rawp-rating-summary-overall .rawp-stars {
+	line-height: 1em;
+	display: block;
+	vertical-align: middle;
+}
+.rawp-rating-summary-details .rawp-stars {
+	display: inline-block;
+	vertical-align: middle;
+}
+.rawp-rating-summary-details .rawp-star-rating {
+	line-height: 1em;
+}
+.rawp-rating-summary-details .rawp-star-rating + label {
+	margin-top: .5em;
+}
+
+.rawp-rating-list-table .rawp-stars, .rawp-rating-summary-details .rawp-stars {
+	display: block;
+	vertical-align: middle;
+	margin-right: .25em;
+	line-height: 1em;
+}
+
+
+/* Horizontal Bar Layout */
+.rawp-criteria-details label {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+.rawp-horizontal-bar {
+	display: flex;
+}
+.rawp-horizontal-bar-left {
+	float: left;
+	width: 70%;
+	vertical-align: middle;
+	display: inline-block;
+	display: block;
+	margin-right: 1em;
+}
+.rawp-horizontal-bar-right {
+	float: left;
+	text-align: left;
+	display: inline-block;
+}
+.rawp-horizontal-bar-container {
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	color: white;
+	display: inline-grid
+}
+

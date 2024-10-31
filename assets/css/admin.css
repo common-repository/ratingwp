@@ -1,0 +1,117 @@
+.rawp-admin-page h1 {
+    margin-bottom: 15px;
+}
+
+.rawp-sortable-container {
+    min-height: 2em;
+}
+.rawp-sortable-item {
+    display: block;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    margin-bottom: 20px;
+}
+.rawp-sortable-item-header {
+    align-items: center;
+    display: flex;
+}
+.rawp-sortable-item-actions {
+    color: #787c82;
+    float: right;
+    display: flex;
+    text-align: center;
+}
+.rawp-sortable-item-actions .dashicons {
+    width: 23px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.rawp-sortable-item-actions .rawp-delete-btn {
+    margin-right: 5px;
+    text-decoration: none;
+}
+#rawp-add-criteria-modal .rawp-criteria-type {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+.rawp-sortable-item-header h2 {
+    cursor: move;
+    display: block;
+    margin: 0;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 14px;
+    color: #1d2327;
+}
+.rawp-sortable-item-header.is-active {
+    border-bottom: 1px solid #c3c4c7
+}
+.rawp-sortable-item p {
+    padding: 15px 20px;
+    margin-top: 0;
+}
+.rawp-sortable-item-container {
+    padding: 0 20px;
+}
+.rawp-sortable-item-container .form-table {
+    border: none;
+    margin-top: 0;
+}
+.rawp-sortable-item-container .form-table td {
+    vertical-align: top;
+}
+.rawp-sortable-item-container .form-table .form-table {
+    border: 1px solid #c3c4c7;
+    width: auto;
+    max-width: 100%;
+}
+.rawp-sortable-item-container .form-table .form-table th {
+    padding: 15px 10px;
+}
+
+
+form#rawp-edit-form :invalid {
+    border: 1px solid #d63638;
+}
+
+.rawp-sortable-item input[name=min], .rawp-sortable-item select[name=display], 
+    .rawp-sortable-item input[name=max], .rawp-sortable-item input[name=value],
+    .rawp-sortable-item input[name=default] {
+    width: 12em;
+}
+
+
+@media screen and (max-width: 782px) {
+}
+
+.no-border td {
+    border: 0px;
+}
+
+.rating-form-block-settings .components-panel__row, 
+.rating-list-table-block-settings .components-panel__row,
+.rating-summary-block-settings .components-panel__row
+ {
+    width: 100%;
+    display: inline-block;
+}
+
+#rawp-submissions-table-form table th#form-entry-id {
+    width: 4em;
+}
+#rawp-submissions-table-form table th#rating {
+    width: 10em;
+}
+#rawp-submissions-table-form .rawp-stars {
+    line-height: 1em;
+}
+#rawp-submissions-table-form .rawp-stars .dashicons {
+    font-size: 1em;
+    display: inline;
+}
